@@ -1,0 +1,16 @@
+.kadai {
+  position: relative;
+}
+
+.fimg {
+  margin: 0 0 0 auto;
+  display: block;
+  width: 50%;
+}
+
+.bn {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  font-size: 50px;
+}
