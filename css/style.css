@@ -1,16 +1,44 @@
 .kadai {
   position: relative;
+  max-width: 1500px;
+}
+
+.box {
+  width: 780px;
+  height: 120px;
+  background-color: navy;
+  position: absolute;
+  top: 80%;
+  left: 10%;
+  z-index: 1;
 }
 
 .fimg {
+  position: relative;
   margin: 0 0 0 auto;
   display: block;
   width: 50%;
+  z-index: 3;
 }
 
 .bn {
   position: absolute;
-  top: 50%;
-  left: 20%;
+  top: 70%;
+  left: 10%;
   font-size: 50px;
+  font-weight:400;
+}
+
+.ttl {
+  text-align: left;
+  font-weight: bolder;
+  color: navy;
+  font-size: 20px;
+}
+
+dl {
+  text-align: right;
+  font-size: 16px;
+  font-weight: bolder;
+  color: navy;
 }
