@@ -12,14 +12,20 @@ a {
   color: navy;
 }
 
+.header-wrapper{
+  display: flex;
+}
+
 .ttl {
   width: 80px;
   color: navy;
   font-size: 20px;
+  padding-right: 600px;
 }
 .nav-list {
   display: flex;
   font-weight: bold;
+  padding-left: 100px;
 }
 .nav-item:not(:last-child) {
   margin-right: 30px;
