@@ -1,6 +1,28 @@
-.kadai {
-  position: relative;
-  max-width: 1500px;
+a {
+  text-decoration: none;
+  color: navy;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 30px;
+  color: navy;
+}
+
+.ttl {
+  width: 80px;
+  color: navy;
+  font-size: 20px;
+}
+.nav-list {
+  display: flex;
+  font-weight: bold;
+}
+.nav-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .box {
@@ -9,7 +31,7 @@
   background-color: navy;
   position: absolute;
   top: 80%;
-  left: 10%;
+  left: 0;
   z-index: 1;
 }
 
@@ -24,19 +46,12 @@
 .bn {
   position: absolute;
   top: 70%;
-  left: 10%;
+  left: 0;
   font-size: 50px;
   font-weight:400;
 }
 
-.ttl {
-  text-align: left;
-  font-weight: bolder;
-  color: navy;
-  font-size: 20px;
-}
-
-dl {
+.nav {
   text-align: right;
   font-size: 16px;
   font-weight: bolder;
