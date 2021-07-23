@@ -38,7 +38,6 @@ a {
   top: 80%;
   left: 0;
   z-index: 1;
-  margin: 0 10%;
 }
 
 .fimg {
@@ -55,7 +54,6 @@ a {
   left: 0;
   font-size: 50px;
   font-weight:400;
-  margin: 0 10%;
 }
 
 .nav {
