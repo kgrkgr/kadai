@@ -30,6 +30,10 @@ a {
   margin-right: 30px;
 }
 
+.main {
+  position: relative;
+}
+
 .box {
   width: 780px;
   height: 120px;
@@ -47,9 +51,9 @@ a {
 }
 
 .bn {
-  position: absolute;
-  top: 70%;
-  left: 0;
+  /* position: absolute; */
+  /* top: 70%; */
+  /* left: 0; */
   font-size: 50px;
   font-weight:400;
 }
@@ -64,4 +68,6 @@ a {
 
 .aaa {
   position: absolute;
+  top: 85%;
+  left: 0%;
 }
