@@ -4,28 +4,27 @@ a {
 }
 
 .header {
-  display: flex;
   justify-content: space-between;
   align-items: center;
   height: 70px;
   padding: 0 30px;
   color: navy;
+  margin: 0 auto;
 }
 
 .header-wrapper{
   display: flex;
+  justify-content: space-between;
 }
 
 .ttl {
   width: 80px;
   color: navy;
   font-size: 20px;
-  padding-right: 600px;
 }
 .nav-list {
   display: flex;
   font-weight: bold;
-  padding-left: 100px;
 }
 .nav-item:not(:last-child) {
   margin-right: 30px;
@@ -39,11 +38,12 @@ a {
   top: 80%;
   left: 0;
   z-index: 1;
+  margin: 0 10%;
 }
 
 .fimg {
   position: relative;
-  margin: 0 0 0 auto;
+  margin: 0 40%;
   display: block;
   width: 50%;
   z-index: 3;
@@ -55,6 +55,7 @@ a {
   left: 0;
   font-size: 50px;
   font-weight:400;
+  margin: 0 10%;
 }
 
 .nav {
@@ -62,4 +63,9 @@ a {
   font-size: 16px;
   font-weight: bolder;
   color: navy;
+}
+
+
+.aaa {
+  position: relative;
 }
